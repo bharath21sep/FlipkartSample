@@ -1,3 +1,5 @@
+@regression
+
 Feature: To validate the login functionality of flipkart
 Scenario: validate with valid username and valid password
 Given launch the chrome browser

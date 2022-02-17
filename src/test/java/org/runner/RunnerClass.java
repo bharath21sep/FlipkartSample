@@ -11,7 +11,7 @@ package org.runner;
 
 	@RunWith(Cucumber.class)
 
-	@CucumberOptions(features="src\\test\\resources",glue="org.stepdefinition",dryRun=false
+	@CucumberOptions(features="src\\test\\resources",glue="org.stepdefinition",dryRun=true,tags= {"@sanity"}
 
 	)
 	public class RunnerClass {

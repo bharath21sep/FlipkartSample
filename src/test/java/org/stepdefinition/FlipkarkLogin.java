@@ -116,7 +116,7 @@ Assert.assertEquals("Login Successful", "Bharath", text);
 		btnclick(lp.getSmartWatchProduct4());
 		switchWindows();
 		btnclick(lp.getAddCartBtn());
-		quitWindow();
+	
 		
 	}
 
